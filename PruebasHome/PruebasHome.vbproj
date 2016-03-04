@@ -72,11 +72,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bucles.Designer.vb">
+      <DependentUpon>Bucles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bucles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios.Designer.vb">
+      <DependentUpon>Ejercicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruteria.Designer.vb">
+      <DependentUpon>Fruteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fruteria.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,8 +114,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Bucles.resx">
+      <DependentUpon>Bucles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios.resx">
+      <DependentUpon>Ejercicios.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruteria.resx">
+      <DependentUpon>Fruteria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
