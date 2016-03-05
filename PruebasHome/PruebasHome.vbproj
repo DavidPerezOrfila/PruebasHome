@@ -78,6 +78,12 @@
     <Compile Include="Bucles.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ControlMental.Designer.vb">
+      <DependentUpon>ControlMental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMental.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Ejercicios.Designer.vb">
       <DependentUpon>Ejercicios.vb</DependentUpon>
     </Compile>
@@ -116,6 +122,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Bucles.resx">
       <DependentUpon>Bucles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMental.resx">
+      <DependentUpon>ControlMental.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios.resx">
       <DependentUpon>Ejercicios.vb</DependentUpon>
