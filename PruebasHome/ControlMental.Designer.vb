@@ -27,11 +27,13 @@ Partial Class ControlMental
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Num1 = New System.Windows.Forms.NumericUpDown()
+        Me.Start = New System.Windows.Forms.Button()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.Num1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ProgressBar1
@@ -58,7 +60,8 @@ Partial Class ControlMental
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.Num1)
+        Me.GroupBox1.Controls.Add(Me.Start)
         Me.GroupBox1.Controls.Add(Me.TextBox3)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
@@ -69,36 +72,46 @@ Partial Class ControlMental
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'TextBox4
+        'Num1
         '
-        Me.TextBox4.Location = New System.Drawing.Point(435, 31)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(173, 68)
-        Me.TextBox4.TabIndex = 3
+        Me.Num1.AutoSize = True
+        Me.Num1.Font = New System.Drawing.Font("Tahoma", 28.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Num1.Location = New System.Drawing.Point(451, 31)
+        Me.Num1.Name = "Num1"
+        Me.Num1.Size = New System.Drawing.Size(149, 64)
+        Me.Num1.TabIndex = 5
+        '
+        'Start
+        '
+        Me.Start.Location = New System.Drawing.Point(185, 146)
+        Me.Start.Name = "Start"
+        Me.Start.Size = New System.Drawing.Size(232, 52)
+        Me.Start.TabIndex = 4
+        Me.Start.Text = "Empezar"
+        Me.Start.UseVisualStyleBackColor = True
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(244, 31)
+        Me.TextBox3.Location = New System.Drawing.Point(272, 31)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(173, 68)
+        Me.TextBox3.Size = New System.Drawing.Size(173, 64)
         Me.TextBox3.TabIndex = 2
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(185, 31)
+        Me.TextBox2.Location = New System.Drawing.Point(202, 31)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(53, 68)
+        Me.TextBox2.Size = New System.Drawing.Size(44, 64)
         Me.TextBox2.TabIndex = 1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(6, 31)
+        Me.TextBox1.Location = New System.Drawing.Point(18, 31)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(173, 68)
+        Me.TextBox1.Size = New System.Drawing.Size(164, 64)
         Me.TextBox1.TabIndex = 0
         '
         'ControlMental
@@ -113,6 +126,7 @@ Partial Class ControlMental
         Me.Text = "ControlMental"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.Num1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -122,8 +136,9 @@ Partial Class ControlMental
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label1 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Start As Button
+    Friend WithEvents Num1 As NumericUpDown
 End Class

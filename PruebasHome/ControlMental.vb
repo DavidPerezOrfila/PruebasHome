@@ -1,5 +1,9 @@
 ﻿Public Class ControlMental
     Public cont As Integer
+    Private r As New Random
+    Private op1, op2 As Integer
+
+
 
     Private Sub ProgressBar1_Click(sender As Object, e As EventArgs) Handles ProgressBar1.Click
         ProgressBar1.Value = 0.0
@@ -22,6 +26,34 @@
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-123456
+
     End Sub
+
+    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
+
+    End Sub
+
+    Private Sub NumericUpDown1_ValueChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Num1_ValueChanged(sender As Object, e As EventArgs) Handles Num1.ValueChanged
+
+    End Sub
+
+    Public Sub Empezar()
+        op1 = r.Next(0, 100)
+        op2 = r.Next(0, 100)
+
+        TextBox1.Text = op1.ToString()
+        TextBox3.Text = op2.ToString()
+
+        Num1.Value = 0
+    End Sub
+
+
 End Class
