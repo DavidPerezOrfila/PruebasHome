@@ -27,10 +27,10 @@ Partial Class ControlMental
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,21 +69,13 @@ Partial Class ControlMental
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'TextBox1
+        'TextBox4
         '
-        Me.TextBox1.Location = New System.Drawing.Point(6, 31)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(173, 68)
-        Me.TextBox1.TabIndex = 0
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(185, 31)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(53, 68)
-        Me.TextBox2.TabIndex = 1
+        Me.TextBox4.Location = New System.Drawing.Point(435, 31)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(173, 68)
+        Me.TextBox4.TabIndex = 3
         '
         'TextBox3
         '
@@ -93,13 +85,21 @@ Partial Class ControlMental
         Me.TextBox3.Size = New System.Drawing.Size(173, 68)
         Me.TextBox3.TabIndex = 2
         '
-        'TextBox4
+        'TextBox2
         '
-        Me.TextBox4.Location = New System.Drawing.Point(435, 31)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(173, 68)
-        Me.TextBox4.TabIndex = 3
+        Me.TextBox2.Location = New System.Drawing.Point(185, 31)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(53, 68)
+        Me.TextBox2.TabIndex = 1
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(6, 31)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(173, 68)
+        Me.TextBox1.TabIndex = 0
         '
         'ControlMental
         '

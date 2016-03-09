@@ -20,4 +20,8 @@
             Close()
         End If
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+123456
+    End Sub
 End Class
