@@ -103,6 +103,12 @@
     <Compile Include="Fruteria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="juegomatematico.Designer.vb">
+      <DependentUpon>juegomatematico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="juegomatematico.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Fruteria.resx">
       <DependentUpon>Fruteria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegomatematico.resx">
+      <DependentUpon>juegomatematico.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
